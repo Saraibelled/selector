@@ -1,0 +1,52 @@
+<script type="text/javascript">
+function switchVis(chartId) {
+  document.querySelector('iframe').src = 'https://datawrapper.dwcdn.net/' + chartId;
+}
+</script>
+
+<style>
+.iframe {
+  margin-top: 20px;
+  width: 400px;
+}
+
+.selecciona {
+font-family: Roboto, sans-serif; 
+font-size:12px; 
+color:#333333;
+  margin-bottom:20px;
+}
+</style>
+
+<div class="graf-sanidad">
+
+	<p class="titular"><span style="font-family: Roboto,sans-serif; font-weight: bold;font-size:13.5px; color:#7A7872">Evolución del número de profesionales en Atención Pública*</span></p>
+
+<p><span style="font-family: Roboto, sans-serif; font-size:12px; color:#333333;">Selecciona la comunidad</span></p>
+
+<select class="selecciona" onchange="switchVis(this.value)">
+  <option value="64awM/">Todas</span></option>
+	<option value="SeLeA/">Andalucía</option>
+	<option value="OtE0r/">Aragón</option>
+	<option value="WIm3y">Asturias</option>
+	<option value="MRV2d">Baleares</option>
+	<option value="gwGZh">Canarias</option>
+	<option value="8il26">Cantabria</option>
+	<option value="wFkOU">Castilla y León</option>
+	<option value="Zm4Cj">Castilla-La Mancha</option>
+	<option value="9cFEm">Cataluña</option>
+	<option value="fIPsI">Com. Valenciana</option>
+	<option value="e5nr6">Extremadura</option>
+	<option value="pdqnR">Galicia</option>
+	<option value="ekFTh">Madrid</option>
+	<option value="ooPJD">Murcia</option>
+	<option value="x1YfF">Navarra</option>	
+	<option value="LVpXw">País Vasco</option>
+	<option value="lcDYF">La Rioja</option>	
+	<option value="GW1Ie">Ingesa</option>
+</select>
+
+<iframe title="Evolución profesionales España" aria-label="Interactive area chart" id="datawrapper-chart-64awM" src="https://datawrapper.dwcdn.net/64awM/" scrolling="no" frameborder="0" style="width: 634; border: none;" height="350"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+</div>
